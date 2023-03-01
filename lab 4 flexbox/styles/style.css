@@ -1,0 +1,133 @@
+.first-flex {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 10px;
+    background-color: rgb(173, 216, 230);
+    padding: 10px;
+}
+
+.first-flex div{
+    width:50%;
+    background-color: rgb(128, 128, 128);
+    
+}
+
+.first-flex #firstA{
+    margin-right: 0px;
+}
+
+.first-flex #firstB{
+    margin-left: 0px;
+}
+
+/*.---------------------------------------------*/
+
+.second-flex{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 15px;
+    background-color: rgb(173, 216, 230);
+    padding: 15px;
+}
+
+.second-flex div{
+    width: 33%;
+    background-color: rgb(128, 128, 128);
+    
+}
+
+#secondA{
+    margin-right: 0px;
+}
+
+#secondB{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#secondC{
+    margin-left: 0px;
+}
+
+/*.---------------------------------------------*/
+
+.third-flex{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 12px;
+    background-color: rgb(173, 216, 230);
+    padding: 12px;
+
+}
+
+.third-flex div {
+    background-color: rgb(128, 128, 128);
+    border: solid 2px;
+}
+
+#thirdC{
+    width: 25%;
+    margin-left: 0px;
+}
+
+#thirdB{
+    width: 25%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#thirdA {
+    width: 50%;
+    margin-right:0px; 
+}
+
+/*.---------------------------------------------*/
+
+.fourth-flex{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 12px;
+    background-color: rgb(173, 216, 230);
+    padding: 12px;
+}
+
+.fourth-flex div{
+    width: 25%;
+    background-color: rgb(128, 128, 128);
+    border: solid 2px;
+}
+
+#fourthB,#fourthC{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#fourthD{
+    margin-left: 0px;
+}
+
+#fourthA{
+    margin-right: 0px;
+}
+
+/*.---------------------------------------------*/
+
+.fifth-flex{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    background-color: rgb(173, 216, 230);
+    padding: 12px;
+
+}
+
+#fifthA{
+    width: auto;
+    height: 100%;
+    background-color: rgb(128, 128, 128);
+    border: solid 2px;
+}
